@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 透明色 -->
+    <color name="transparent">#00000000</color>
+    <!-- 白色 -->
+    <color name="WHITE">#FFFFFF</color>
+    <!-- 灰色-->
+    <color name="gray">#808080</color>
+    <!-- 浅灰色-->
+    <color name="light_gray">#EAEAEF</color>
+    <!-- 黑色-->
+    <color name="black">#000000</color>
+    <!-- 红色-->
+    <color name="red">#FF0000</color>
+    <!-- 红色-->
+    <color name="my_hint_color">#EAEAEF</color>
+
+    <color name="weelrecColoc">#76b5b5</color>
+    <color name="blue">#0080ff</color>
+ <!--APP主题-->
+    <color name="APPColor">#55A7B5</color>
+    <!--APP文字色-->
+    <color name="APPText">#666666</color>
+    <color name="textcolor">#333</color>
+    <color name="title_xian">#e0e0e0</color>
+    <color name="APPRedColor">#e86c60</color>
+    <color name="MyWHITE">#FFFFFF</color>
+</resources>
