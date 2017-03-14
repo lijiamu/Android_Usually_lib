@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package com.android.View.ScrollView;
+package com.android.view.ScrollView;
 
 import android.content.Context;
 import android.content.res.TypedArray;

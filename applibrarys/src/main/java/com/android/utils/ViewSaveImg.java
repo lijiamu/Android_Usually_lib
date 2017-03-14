@@ -9,7 +9,7 @@ import android.widget.ScrollView;
 import android.widget.Toast;
 
 
-import com.android.Dialog.LoadingDialog;
+import com.android.dialog.LoadingDialog;
 import com.android.R;
 
 import java.io.File;

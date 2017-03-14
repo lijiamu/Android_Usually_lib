@@ -1,4 +1,4 @@
-package com.android.View.ScrollView;
+package com.android.view.ScrollView;
 
 import android.content.Context;
 import android.graphics.Rect;

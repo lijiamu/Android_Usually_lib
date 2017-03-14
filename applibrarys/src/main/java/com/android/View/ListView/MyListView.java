@@ -1,4 +1,4 @@
-package com.android.View.ListView;
+package com.android.view.ListView;
 
 import android.content.Context;
 import android.util.AttributeSet;

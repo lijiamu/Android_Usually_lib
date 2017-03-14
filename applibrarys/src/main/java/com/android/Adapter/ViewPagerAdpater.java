@@ -1,4 +1,4 @@
-package com.android.Adapter;
+package com.android.adapter;
 
 import java.util.List;
 

@@ -22,9 +22,6 @@
     <style name="text_red">
         <item name="android:textColor">@color/red</item>
     </style>
-    <style name="app_text_red">
-        <item name="android:textColor">@color/APPRedColor</item>
-    </style>
     <style name="popWindow_animation">
         <item name="android:windowEnterAnimation">@anim/popupwindow_open</item>
         <item name="android:windowExitAnimation">@anim/popupwindow_exit</item>
@@ -96,10 +93,5 @@
         <item name="android:paddingRight">5dp</item>
         <item name="android:src">@drawable/arrow_down</item>
         <item name="android:layout_marginLeft">5dp</item>
-    </style>
-    <style name="progress_theme"><!--横线  -->
-        <item name="android:textColor">@color/APPText</item>
-        <item name="android:windowActionBar">false</item>
-        <item name="android:windowNoTitle">true</item>
     </style>
 </resources>

@@ -1,4 +1,4 @@
-package com.android.View.GridView;
+package com.android.view.GridView;
 
 
 import android.content.Context;
