@@ -304,7 +304,7 @@ public class BaseActivity extends AppCompatActivity {
      * 关闭APP
      * @param
      */
-    public void exitAPP(){
+        public void exitAPP(){
         for(int i=0;i<BaseApplication.All_activitys.size();i++){
             BaseApplication.All_activitys.get(i).finish();
         }
