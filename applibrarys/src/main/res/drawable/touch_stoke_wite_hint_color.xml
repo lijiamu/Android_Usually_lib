@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 手指触碰效果 -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/circle_hint_color" android:state_pressed="true"></item>
+    <item android:drawable="@drawable/storke_5_hint_color_bg_white"></item>
+
+</selector>

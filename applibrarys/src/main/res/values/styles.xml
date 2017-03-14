@@ -1,0 +1,105 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+        -->
+    </style>
+
+    <!-- Application theme. -->
+   <!-- <style name="AppTheme" parent="AppBaseTheme">
+
+    </style>-->
+
+    <style name="text_red">
+        <item name="android:textColor">@color/red</item>
+    </style>
+    <style name="app_text_red">
+        <item name="android:textColor">@color/APPRedColor</item>
+    </style>
+    <style name="popWindow_animation">
+        <item name="android:windowEnterAnimation">@anim/popupwindow_open</item>
+        <item name="android:windowExitAnimation">@anim/popupwindow_exit</item>
+    </style>
+    <style name="TextStyle_font_15">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/Font_15sp</item>
+    </style>
+    <style name="TextStyle_font_13">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/Font_13sp</item>
+    </style>
+    <style name="TextStyle_font_13_match_parent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/Font_13sp</item>
+    </style>
+    <style name="TextStyle_font_15_match_parent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/Font_15sp</item>
+    </style>
+    <style name="TextStyle_font_17">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/Font_17sp</item>
+    </style>
+    <style name="TextStyle_font_17_match_parent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/Font_17sp</item>
+    </style>
+    <style name="Theme_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否模糊 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+    </style>
+    <style name="loading_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--   <item name="android:windowIsFloating">true</item> -->
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="arrow_right_image" >
+        <item name="android:layout_width">7dp</item>
+        <item name="android:layout_height">13dp</item>
+        <item name="android:src">@drawable/arrow_right</item>
+        <item name="android:layout_marginLeft">5dp</item>
+    </style>
+    <style name="arrow_down" >
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_height">14dp</item>
+        <item name="android:src">@drawable/arrow_down</item>
+        <item name="android:layout_marginLeft">5dp</item>
+    </style>
+    <style name="arrow_buttom_image" >
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_height">14dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:src">@drawable/arrow_down</item>
+        <item name="android:layout_marginLeft">5dp</item>
+    </style>
+    <style name="progress_theme"><!--横线  -->
+        <item name="android:textColor">@color/APPText</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>
